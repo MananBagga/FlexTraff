@@ -1,0 +1,11 @@
+Model Information:
+* title:	8-Inch GE GTx Signals
+* source:	https://sketchfab.com/3d-models/8-inch-ge-gtx-signals-8b408fc843c840738ace44e96141d150
+* author:	Signalrenders (https://sketchfab.com/Signalrenders)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "8-Inch GE GTx Signals" (https://sketchfab.com/3d-models/8-inch-ge-gtx-signals-8b408fc843c840738ace44e96141d150) by Signalrenders (https://sketchfab.com/Signalrenders) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
