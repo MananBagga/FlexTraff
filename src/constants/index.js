@@ -21,8 +21,12 @@ import {
     shopify,
     carrent,
     jobit,
-    tripguide,
     threejs,
+    himang,
+    yashasvi,
+    Member3,
+    Abhinav,
+    manan,
   } from "../assets";
   
   export const navLinks = [
@@ -56,6 +60,34 @@ import {
     {
       title: "Content Creator",
       icon: creator,
+    },
+  ];
+
+  const team = [
+    {
+      title: "Himang Bhatia",
+      icon: himang,
+      linkedin_profile: "",
+    },
+    {
+      title: "Yashasvi Attri",
+      icon: yashasvi,
+      linkedin_profile: "",
+    },
+    {
+      title: "Abhinav",
+      icon: Abhinav,
+      linkedin_profile: "",
+    },
+    {
+      title: "Member3",
+      icon: Member3,
+      linkedin_profile: "",
+    },
+    {
+      title: "Manan Bagga",
+      icon: manan,
+      linkedin_profile: "https://in.linkedin.com/in/manan-bagga-893189247",
     },
   ];
   
@@ -257,9 +289,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
       source_code_link: "https://github.com/",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, team };

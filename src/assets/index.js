@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.jpg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -28,7 +28,12 @@ import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import himang from "./himang.jpg"
+import yashasvi from "./yashasvi.jpg"
+import Member3 from "./Member3.jpg"
+import Abhinav from "./Abhinav.jpg"
+import manan from "./manan.jpg"
+import linkedin_icon from "./linkedin_icon.jpg"
 
 export {
   logo,
@@ -58,5 +63,10 @@ export {
   tesla,
   carrent,
   jobit,
-  tripguide,
+  himang,
+  Abhinav,
+  yashasvi,
+  Member3,
+  manan,
+  linkedin_icon
 };

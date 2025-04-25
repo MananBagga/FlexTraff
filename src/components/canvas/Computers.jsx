@@ -153,7 +153,7 @@ const Computers = ({ isMobile }) => {
       />
 
       {/* Model with no rotation flip */}
-      <Center position={isMobile ? [0, 0, 0] : [0, -1.1, 0]}>
+      <Center position={isMobile ? [0, -1.3, 0] : [0, -1.25, 0]}>
         <primitive
           object={computer.scene}
           rotation={[0, 0, 0]} // Remove the 180° flip
@@ -196,7 +196,7 @@ const ComputersCanvas = () => {
       camera={{ position: [0, 3, 10], fov: 35 }}
       gl={{ preserveDrawingBuffer: true }}
     >
-      <Suspense fallback={<CanvasLoader />}>
+      <Suspense>
         <OrbitControls
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
