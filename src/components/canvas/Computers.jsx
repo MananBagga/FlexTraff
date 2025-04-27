@@ -96,7 +96,7 @@ const Computers = ({ isMobile }) => {
           child.receiveShadow = true;
   
           const name = child.name;
-          console.log(name);
+          // console.log(name);
           
   
           if (name.includes("cylinder064") && name.includes("red")) {
@@ -196,7 +196,7 @@ const ComputersCanvas = () => {
       camera={{ position: [0, 3, 10], fov: 35 }}
       gl={{ preserveDrawingBuffer: true }}
     >
-      <Suspense>
+      <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}

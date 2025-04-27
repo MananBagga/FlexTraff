@@ -50,7 +50,7 @@ const TeamCard = ({ index, title, icon, linkedin_profile }) => {
 
 
 
-const About = () => {
+const Team = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -68,9 +68,8 @@ const About = () => {
         The future of traffic management starts here.
       </motion.p> */}
 
-      {/* <div className='mt-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 rounded-[20px] place-items-center'> */}
-
-      <div className='mt-20 flex justify-center flex-wrap gap-10 rounded-[20px]'>
+      <div className='mt-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 rounded-[20px] place-items-center'>
+        {/* <div className='mt-20 flex justify-center flex-wrap gap-10 rounded-[20px]'> */}
 
         {team.map((team, index) => (
           <TeamCard key={team.title} index={index} {...team} />
@@ -80,4 +79,4 @@ const About = () => {
   )
 }
 
-export default SectionWrapper(About, "about")
+export default SectionWrapper(Team, "team")

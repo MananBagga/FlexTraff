@@ -35,8 +35,8 @@ import {
       title: "About",
     },
     {
-      id: "work",
-      title: "Work",
+      id: "team",
+      title: "Our Team",
     },
     {
       id: "contact",
@@ -67,12 +67,12 @@ import {
     {
       title: "Himang Bhatia",
       icon: himang,
-      linkedin_profile: "",
+      linkedin_profile: "https://www.linkedin.com/in/himang-bhatia-aa442b330/",
     },
     {
       title: "Yashasvi Attri",
       icon: yashasvi,
-      linkedin_profile: "",
+      linkedin_profile: "https://www.linkedin.com/in/yashasvi-attri-3b4b78276/",
     },
     {
       title: "Abhinav",
@@ -80,9 +80,9 @@ import {
       linkedin_profile: "",
     },
     {
-      title: "Member3",
+      title: "Tannu Kasana",
       icon: Member3,
-      linkedin_profile: "",
+      linkedin_profile: "https://www.linkedin.com/in/tannu-kasana-430a3b293/",
     },
     {
       title: "Manan Bagga",
