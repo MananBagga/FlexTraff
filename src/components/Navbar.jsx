@@ -43,7 +43,6 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt='logo' className='w-28 h-28 object-contain rounded-3xl' />
-          {/* <p className='text-white text-[18px] font-bold cursor-pointer flex'>Flex Traff</p> */}
         </Link>
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>

@@ -39,13 +39,14 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-2 text-secondary text-[17px] max-w-[65rem] leading-[30px]'
       >
-        At FlexTraff, we're building AI-powered Dynamic Traffic Light Systems that adapt in real time to traffic flow, reducing congestion, emissions, and delays. Using computer vision, IoT sensors, and machine learning, our system makes intersections more efficient and safer for vehicles and pedestrians alike.
-
-        Designed for smart cities, our solution helps urban planners monitor patterns, respond faster, and improve overall mobility.
-
-        The future of traffic management starts here.
+        The main purpose of the FlexTraff is to reform the traffic system with the help of dynamic traffic light system, which will optimize the flow of traffic in real time and also decrease the level of emission.
+        We will monitor the traffic density and movement at intersections though or IP pending technology.
+        Thus the period for traffic lights can thus dynamically be adjusted accordingly. It will reduce the traffic
+        congestion and will minimize the wait time.
+        This will result in improvising the efficiency of traffic flow leading to optimizing the fuel consumption,
+        land thus leading to smoother urban transportation with reduced pollution.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
