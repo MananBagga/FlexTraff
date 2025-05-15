@@ -1,12 +1,48 @@
-# React + Vite
+# Flextraff Startup Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the official website built for **Flextraff**, a startup founded by my childhood friend. It serves as a sleek and interactive portfolio to showcase the startup’s vision, services, and online presence.
 
-Currently, two official plugins are available:
+The site leverages **Three.js**, **React**, and **Tailwind CSS** to deliver a modern 3D web experience. It is deployed on **Vercel** for seamless performance and fast global access.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** – Component-based UI development
+- **React Three Fiber** – React renderer for Three.js
+- **Three.js** – 3D rendering in the browser
+- **Tailwind CSS** – Utility-first CSS framework
+- **Framer Motion** *(optional)* – Smooth UI animations
+- **Vercel** – Hosting and deployment
+
+---
+
+## Features
+
+- ⚡ Interactive 3D components using React Three Fiber
+- 📱 Fully responsive design for all screen sizes
+- 💡 Clean, modern UI with Tailwind CSS
+- 🚀 Deployed via Vercel for optimized performance
+- 🎨 Smooth transitions and user-friendly experience
+
+---
+
+## Live Preview
+
+🔗 [Visit Website](https://flex-traff.vercel.app)
+
+---
+
+## Project Structure (Basic Overview)
+
+```bash
+├── public/
+│   └── assets/          # Static files (models, images, etc.)
+├── src/
+│   ├── components/      # Reusable UI and 3D components
+│   ├── pages/           # Main page and sections
+│   ├── App.jsx          # Root component
+│   └── main.jsx         # Entry point
+├── tailwind.config.js   # Tailwind CSS config
+├── vite.config.js       # Vite configuration (if used)
+└── package.json         # Project metadata and dependencies
