@@ -30,19 +30,3 @@ The site leverages **Three.js**, **React**, and **Tailwind CSS** to deliver a mo
 ## Live Preview
 
 🔗 [Visit Website](https://flex-traff.vercel.app)
-
----
-
-## Project Structure (Basic Overview)
-
-```bash
-├── public/
-│   └── assets/          # Static files (models, images, etc.)
-├── src/
-│   ├── components/      # Reusable UI and 3D components
-│   ├── pages/           # Main page and sections
-│   ├── App.jsx          # Root component
-│   └── main.jsx         # Entry point
-├── tailwind.config.js   # Tailwind CSS config
-├── vite.config.js       # Vite configuration (if used)
-└── package.json         # Project metadata and dependencies
