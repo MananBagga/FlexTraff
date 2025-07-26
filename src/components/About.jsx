@@ -42,11 +42,11 @@ const About = () => {
         className='mt-2 text-secondary text-[17px] max-w-[65rem] leading-[30px]'
       >
         The main purpose of the FlexTraff is to reform the traffic system with the help of dynamic traffic light system, which will optimize the flow of traffic in real time and also decrease the level of emission.
-        We will monitor the traffic density and movement at intersections though or IP pending technology.
-        Thus the period for traffic lights can thus dynamically be adjusted accordingly. It will reduce the traffic
+        We will monitor the traffic density and movement at intersections through our IP pending technology.
+        Thus the period for traffic lights can dynamically be adjusted accordingly. It will reduce the traffic
         congestion and will minimize the wait time.
-        This will result in improvising the efficiency of traffic flow leading to optimizing the fuel consumption,
-        land thus leading to smoother urban transportation with reduced pollution.
+        This will result in improvising the efficiency of traffic flow leading to optimize fuel consumption,
+        leading to smoother urban transportation with reduced pollution.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
